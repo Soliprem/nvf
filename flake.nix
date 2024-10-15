@@ -600,6 +600,11 @@
     };
 
     # Assistant
+    plugin-avante = {
+      url = "github:yetone/avante.nvim";
+      flake = false;
+    };
+
     plugin-chatgpt = {
       url = "github:jackMort/ChatGPT.nvim";
       flake = false;

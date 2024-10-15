@@ -212,6 +212,7 @@ isMaximal: {
 
     assistant = {
       chatgpt.enable = false;
+      avante.enable = true;
       copilot = {
         enable = false;
         cmp.enable = isMaximal;
