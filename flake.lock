@@ -172,6 +172,22 @@
         "type": "github"
       }
     },
+    "plugin-avante": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728983530,
+        "narHash": "sha256-FqV13G4RAuZaa5YRwsrP33wsSVBP+l7xlBM3SGAIQ9A=",
+        "owner": "yetone",
+        "repo": "avante.nvim",
+        "rev": "7c83558b377ac2ddaf2ead79b9060e240ce7e2f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yetone",
+        "repo": "avante.nvim",
+        "type": "github"
+      }
+    },
     "plugin-base16": {
       "flake": false,
       "locked": {
@@ -1914,6 +1930,7 @@
         "nixpkgs": "nixpkgs",
         "nmd": "nmd",
         "plugin-alpha-nvim": "plugin-alpha-nvim",
+        "plugin-avante": "plugin-avante",
         "plugin-base16": "plugin-base16",
         "plugin-bufdelete-nvim": "plugin-bufdelete-nvim",
         "plugin-catppuccin": "plugin-catppuccin",

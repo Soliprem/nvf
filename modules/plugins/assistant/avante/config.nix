@@ -13,13 +13,10 @@ in {
     {
       vim = {
         startPlugins = [
-          "lua-utils-nvim"
+          "nvim-treesitter"
           "nui-nvim"
-          "nvim-nio"
-          "pathlib-nvim"
+          "dressing-nvim"
           "plenary-nvim"
-          "neorg"
-          "neorg-telescope"
         ];
         pluginRC.avante = entryAnywhere ''
           require('avante').setup(${toLuaObject cfg.setupOpts})
